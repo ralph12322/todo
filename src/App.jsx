@@ -20,7 +20,7 @@ export default function App(){
     setTodos((currentTodos) => {
       return [
         ...currentTodos, 
-        { id: crypto.randomUUID(), title, completed},
+        { id: crypto.randomUUID(), title, completed : false},
       ]
     })
   }
